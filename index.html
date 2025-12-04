@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .intro {
+            margin: 30px;
+            text-align: center;
+        }
+
+        .intro img {
+            width: 80%;
+            max-width: 700px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .gallery {
+            margin: 40px;
+            text-align: center;
+        }
+
+        .images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .images img {
+            width: 250px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+
+    <section class="intro">
+        <h2>About This Page</h2>
+        <p>This is a simple webpage created with HTML and CSS. It also includes images loaded from the web.</p>
+        <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=800&q=60" alt="Nature Image">
+    </section>
+
+    <section class="gallery">
+        <h2>Image Gallery</h2>
+
+        <div class="images">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=60" alt="Mountains">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=60" alt="Forest">
+            <img src="https://images.unsplash.com/photo-1493244040629-496f6d136cc3?auto=format&fit=crop&w=600&q=60" alt="River">
+        </div>
+    </section>
+
+</body>
+</html>
